@@ -1,0 +1,37 @@
+a{
+    font-style: italic;
+    object-fit: cover;
+    text-decoration: double;
+
+   
+
+}
+
+.save{
+    outline-style: dotted;
+    text-shadow: 2px 2px red;
+   
+    
+}
+
+#idBoton{
+
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px currentcolor;
+    animation-name: example;
+    animation-duration: 49s;
+
+
+}
+
+a[href]{
+    color: black;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
